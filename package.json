@@ -3,11 +3,11 @@
   "version": "1.1.0",
   "description": "Alfred 3 workflow to translate between zh-cn and en with google tanslate api",
   "license": "MIT",
-  "repository": "xfslove/alfred-google-translate-fork",
+  "repository": "joway/alfred-google-translate",
   "author": {
     "name": "hanwen.huang",
     "email": "xfslove@gmail.com",
-    "url": "https://github.com/xfslove/alfred-google-translate-fork"
+    "url": "https://github.com/joway/alfred-google-translate"
   },
   "engines": {
     "node": ">=4"
