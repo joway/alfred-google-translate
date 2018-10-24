@@ -1,13 +1,13 @@
 {
-  "name": "alfred-google-translate",
+  "name": "alfred-google-translate-fork",
   "version": "1.1.0",
   "description": "Alfred 3 workflow to translate between zh-cn and en with google tanslate api",
   "license": "MIT",
-  "repository": "xfslove/alfred-google-translate",
+  "repository": "xfslove/alfred-google-translate-fork",
   "author": {
     "name": "hanwen.huang",
     "email": "xfslove@gmail.com",
-    "url": "https://github.com/xfslove/alfred-google-translate"
+    "url": "https://github.com/xfslove/alfred-google-translate-fork"
   },
   "engines": {
     "node": ">=4"

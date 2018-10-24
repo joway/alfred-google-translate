@@ -1,10 +1,10 @@
-# alfred-google-translate
-[![NPM](https://nodei.co/npm/alfred-google-translate.png)](https://nodei.co/npm/alfred-google-translate/)
+# alfred-google-translate-fork
+[![NPM](https://nodei.co/npm/alfred-google-translate-fork.png)](https://nodei.co/npm/alfred-google-translate-fork/)
 
 ## 安装
 
 ```
-$ npm install -g alfred-google-translate
+$ npm install -g alfred-google-translate-fork
 ```
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*

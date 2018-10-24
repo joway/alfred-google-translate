@@ -24,7 +24,7 @@ translate(q, {raw: true, to: to}).then(data => {
           const text = x[0];
           const relation = x[1];
           output.items.push({ 
-            title: text, 
+            title: text.toLowerCase(), 
             subtitle: `(${partOfSpeech}) ${relation.join(', ')}`, 
             arg: text,
             mods: {
@@ -41,7 +41,7 @@ translate(q, {raw: true, to: to}).then(data => {
       });
     } else {
       output.items.push({ 
-        title: data.text, 
+        title: data.text.toLowerCase(), 
         subtitle: '', 
         arg: data.text,
         mods: {
@@ -58,7 +58,7 @@ translate(q, {raw: true, to: to}).then(data => {
   } else {
     const corrected = data.from.text.value.replace(/\[/, '').replace(/\]/, '');
     output.items.push({ 
-      title: data.text, 
+      title: data.text.toLowerCase(), 
       subtitle: `您要查询的是 ${corrected} 吗?, 请按 ⇥ 查询更多`, 
       autocomplete: corrected 
     });
